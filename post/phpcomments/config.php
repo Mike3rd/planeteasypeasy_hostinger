@@ -1,12 +1,12 @@
 <?php
 // Your MySQL database hostname.
-define('db_host','db-pepxyz.cjqemucsql96.us-east-2.rds.amazonaws.com');
+define('db_host','localhost');
 // Your MySQL database username.
-define('db_user','admin');
+define('db_user','u940803011_miketurko');
 // Your MySQL database password.
-define('db_pass','DB$pepxyz2025');
+define('db_pass','9tXPvlX08]8?');
 // Your MySQL database name.
-define('db_name','phpcomments_advanced');
+define('db_name','u940803011_miketurko');
 // Your MySQL database charset.
 define('db_charset','utf8');
 /* Comments */
@@ -35,7 +35,7 @@ define('mail_from','mturko@outlook.com');
 // This is the email address that will receive the notifications.
 define('notification_email','mturko@outlook.com');
 // The name of your business.
-define('mail_name','Planet Easy Peasy');
+define('mail_name','Mike Turko');
 // If enabled, the mail will be sent using SMTP.
 define('SMTP',false);
 // Your SMTP hostname.

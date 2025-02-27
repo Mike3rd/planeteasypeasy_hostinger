@@ -9,6 +9,7 @@
  *      ## colors
  *      ## spacing and typescale
  *      ## grid variables
+ * # BODY
  * # SOCIAL SHARE
  * # COMMENTS
  * # FIND YOUR TIME
@@ -541,13 +542,10 @@ text-shadow:none
 /* move dropdown to left on mobile*/
 @media screen and (max-width: 600px) {
   .dropdown-content {
-  left: 0px;
+  left: 50%;
+  transform: translateX(-50%);
 	}
 }
-
-
-
-
 
 .posts-list .share-container {
 	display: none

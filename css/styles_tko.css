@@ -540,10 +540,11 @@ text-shadow:none
 
 /* SOCIAL SHARE TKO*/
 /* move dropdown to left on mobile*/
+/* move dropdown to left on mobile*/
 @media screen and (max-width: 600px) {
   .dropdown-content {
   left: 50%;
-  transform: translateX(-50%);
+  
 	}
 }
 

@@ -2,11 +2,11 @@
 // Your MySQL database hostname.
 define('db_host','localhost');
 // Your MySQL database username.
-define('db_user','u940803011_miketurko');
+define('db_user','u940803011_miket');
 // Your MySQL database password.
-define('db_pass','9tXPvlX08]8?');
+define('db_pass','MIEn]$p7E');
 // Your MySQL database name.
-define('db_name','u940803011_miketurko');
+define('db_name','u940803011_pep_comments');
 // Your MySQL database charset.
 define('db_charset','utf8');
 /* Comments */

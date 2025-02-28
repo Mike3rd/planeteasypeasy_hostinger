@@ -57,6 +57,7 @@
 	--secondary-bg: hsla(var(--secondary-hue), 100%, 68%, .5);
 	--neutral-bg: hsla(120, 8%, 97%, 1);
 	--text: hsla(0, 0%, 20%, 1);
+	--text-well: hsla(0, 0%, 95%, 1);
 	--heather-gray hsla(201, 19%, 76%, 1)
 	
 	 /* Derived colors */
@@ -112,6 +113,7 @@
 	--secondary-bg: hsla(var(--secondary-hue), 100%, 68%, .5);
 	--neutral-bg: hsla(120, 8%, 97%, 1);
 	--text: hsla(0, 0%, 95%, 1);
+	--text-well: hsla(0, 0%, 95%, 1);
 	--heather-gray hsla(201, 19%, 76%, 1)
 	/* Derived colors */
 	--page-subheading: hsla(var(--primary-hue), 30%, 35%, 1);
@@ -146,6 +148,15 @@ blockquote {
 	border-color:var(--color-gray-8);
 
 }
+
+.well h2{color:#404040;}
+.well{
+	background-color: var(--primary);
+	font-family: var(--theme-font-family);
+	color:var(--text-well);
+	
+}
+
 
 p a {color: var(--links)}
 
@@ -190,8 +201,7 @@ footer a{
  
 .page-heading {color:var(--primary);}
 .page-subheading {color:var(--page-subheading);font-weight:700!important}
-.well h2{color:#404040;}
-.well {background-color:#f5f5f5}
+
 
 /* blog post page*/
 
@@ -233,11 +243,7 @@ footer a{
   border-right:5px solid #fff;
 }
 
-.well{
-	background-color:var(--neutral-bg);
-	font-family: var(--theme-font-family)
-	
-}
+
 
 
 /*hugo markup hilight text*/

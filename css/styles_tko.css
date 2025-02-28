@@ -151,7 +151,9 @@ p a {color: var(--links)}
 
 a:hover {color: var(--links-hover)}
 
-.post-subheading{}
+/*Post title and subtitle theme color and white with big image*/
+.no-img h1{color: var(--primary)}
+.no-img h2{color: var(--secondary)}
 
 .navbar-custom .navbar-brand, .navbar-custom .nav li a{
 	color: var(--primary)}

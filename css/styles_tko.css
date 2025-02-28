@@ -549,7 +549,8 @@ text-shadow:none
 }
 
 
-.posts-list .share-container {
+/* hide on home page*/
+.posts-list #socialshare_tko {
 	display: none
 }
 

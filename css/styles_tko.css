@@ -160,7 +160,10 @@ blockquote {
 
 p a {color: var(--links)}
 
-a:hover {color: var(--links-hover)}
+a:hover,
+a:focus {
+  color: var(--links-hover)!important;
+}
 
 /*Post title and subtitle theme color and white with big image*/
 .no-img h1{color: var(--primary)}

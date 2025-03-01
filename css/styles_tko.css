@@ -152,10 +152,15 @@ blockquote {
 .well{
 	background-color: var(--primary);
 	font-family: var(--theme-font-family);
-	color:var(--text-well);
-	
+	color:var(--text-well);	
 }
-
+/* Previous Next post buttons*/
+.pager li a:hover,
+.pager li a:focus {
+  color: #FFF;
+  background: var(--primary);
+  border: 1px solid #0085a1;
+}
 
 p a {color: var(--links)}
 
